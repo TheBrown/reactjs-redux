@@ -25,7 +25,7 @@ const mapDispatchToProps = (dispatch, ownProps) => {
 
 const mapStateToProps = (state, ownProps) => {
     return {
-        num: state.num
+        num: state.calu.num
     }
 }
 

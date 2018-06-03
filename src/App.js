@@ -6,6 +6,7 @@ import { connect, Provider } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { store } from './store';
 import Calculate from './components/Calculate';
+import Feed from './components/Feed'
 
 class App extends Component {
 
@@ -20,6 +21,8 @@ class App extends Component {
           </header>
 
           <Calculate/>
+
+          <Feed/>
           
 
         </div>
